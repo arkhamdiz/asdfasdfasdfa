@@ -1,0 +1,46 @@
+footer{ 
+
+   .footer1{
+      display:flex;
+      flex-direction:row;
+      padding-left: 5%;
+      overflow: hidden;
+      .redes1{
+         width: 12px;
+         height: 12px;
+         border-radius: 100%;
+      }
+      .redes{
+         width: 12px;
+         height: 12px;
+         border-radius:100%;
+      }
+      .redes3{
+         width: 12px;
+         height: 12px;
+         border-radius:100%;
+      }
+   }
+ }
+
+ @media (min-width:600px){
+   footer{
+      .footer1{
+         .redes1{
+            width: 24px;
+            height: 24px;
+            border-radius: 100%;
+         }
+         .redes{
+            width: 24px;
+            height: 24px;
+            border-radius:100%;
+         }
+         .redes3{
+            width: 24px;
+            height: 24px;
+            border-radius:100%;
+         }
+      }
+   }
+ }
